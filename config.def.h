@@ -34,7 +34,7 @@ static const Rule rules[] = {
     { "Gimp",     NULL,       NULL,       0,            0,           0,           -1 },
     { "Firefox",  NULL,       NULL,       1 << 8,       0,           0,           -1 },
     { "qutebrowser",NULL,     NULL,       1 << 3,       0,           0,           -1 },
-    { "Scratch", "st-256color",NULL,     0,            1,           1,           -1 },
+    { "Scratch", "st-256color",NULL,      0,            1,           1,           -1 },
 };
 
 /* layout(s) */
@@ -115,15 +115,15 @@ static const Key keys[] = {
     { 0,              XF86XK_AudioLowerVolume,  spawn_refbar,   {.v = downvol } },
     { 0,              XF86XK_AudioMute,         spawn_refbar,   {.v = mute } },
     TAGKEYS(                        XK_1,                       0)
-        TAGKEYS(                        XK_2,                       1)
-        TAGKEYS(                        XK_3,                       2)
-        TAGKEYS(                        XK_4,                       3)
-        TAGKEYS(                        XK_5,                       4)
-        TAGKEYS(                        XK_6,                       5)
-        TAGKEYS(                        XK_7,                       6)
-        TAGKEYS(                        XK_8,                       7)
-        TAGKEYS(                        XK_9,                       8)
-        { MODKEY|ShiftMask,             XK_q,       quit,           {0} },
+    TAGKEYS(                        XK_2,                       1)
+    TAGKEYS(                        XK_3,                       2)
+    TAGKEYS(                        XK_4,                       3)
+    TAGKEYS(                        XK_5,                       4)
+    TAGKEYS(                        XK_6,                       5)
+    TAGKEYS(                        XK_7,                       6)
+    TAGKEYS(                        XK_8,                       7)
+    TAGKEYS(                        XK_9,                       8)
+    { MODKEY|ShiftMask,             XK_q,       quit,           {0} },
 };
 
 /* button definitions */
