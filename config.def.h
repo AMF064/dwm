@@ -33,8 +33,7 @@ static const Rule rules[] = {
     /* class      instance    title       tags mask     iscentered   isfloating   monitor */
     { "Gimp",     NULL,       NULL,       0,            0,           0,           -1 },
     { "Firefox",  NULL,       NULL,       1 << 8,       0,           0,           -1 },
-    { "qutebrowser",NULL,     NULL,       1 << 3,       0,           0,           -1 },
-    { "Scratch", "st-256color",NULL,      0,            1,           1,           -1 },
+    { "surf",     NULL,       NULL,       1 << 3,       0,           0,           -1 },
 };
 
 /* layout(s) */
